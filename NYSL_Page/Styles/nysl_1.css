@@ -1,0 +1,79 @@
+/*Saco margenes de toda la pagina*/
+*{
+	margin: 0px;
+}
+
+/*Header arriba de todo y ajusto la imagen*/
+header
+{
+	height:40vh;
+	float:top;
+	background-image:url("../images/design1_image1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 20% 20%;
+}
+
+/*Oculto imagen extra*/
+#imagen{
+	display: none;
+}
+
+/*Nombre del equipo*/
+#titulo
+{
+	font:3vw verdana;
+	color: orange;
+	text-shadow: 2px 2px black;
+}
+
+/*Situo al logo y ajusto tamaño*/
+#logo{
+	position: absolute;
+	top: 32vh;
+	right: 11vw;
+	width: 10vw	;
+}
+
+/*Subtitulo de la pagina*/
+#subtitulo{
+	text-align: center;
+	padding: 5px;
+	font: 2vw verdana;
+	background: black;
+	color: white;
+}
+
+/*Links de navegacion*/
+nav{
+	margin-left: 1vw;
+	float: left;
+	height: 40vh;
+	width: 15vw;
+	text-align: left;
+	font: 3vh verdana;
+}
+
+
+.link{
+	margin: 7vh;
+}
+
+/*Informacion de la pagina*/
+#databox{
+	margin-left: 2vh;
+	float: left;
+	height: 40vh;
+	width: 75vw;
+	text-align: left;
+	font: 3vh verdana;
+}
+
+.data{
+	margin: 5vh;
+}
+
+/*Oculto imagen del tercer diseño*/
+#imagenesdis3{
+	display: none;
+}

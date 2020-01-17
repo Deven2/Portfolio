@@ -1,0 +1,393 @@
+/*Saco margenes*/
+
+*{
+	margin: 0;
+}
+
+/*Ajusto header*/
+header{
+	height: 31vh;
+	background-image:url("../images/design1_image1.jpg");
+	background-size: cover;
+	background-position: 20% 15%;
+	border: 0.5vh solid black;
+	
+}
+
+/*Fondo a toda la pantalla (terminé modificando el body porque crear un div para todo su contenido traía muchos más problemas*/
+body{
+	background-image: url("../images/soccer_field.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+/*Ajusto titulo*/
+#titulo{
+	font: 8vh verdana;
+	color: #1aff1a;
+	padding-top: 8vh;
+	padding-left: 40vh;
+	text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+/*Oculto imagen*/
+#imagen{
+	display: none;
+}
+
+
+/*Subtitulo*/
+#subtitulo{
+	margin-top: 5vh;
+	text-align: left;
+	text-decoration: underline;
+	padding-left: 5vw;
+	color: white;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
+	/*Esto lo copié de internet para darle borde al texto*/
+	font: 30px verdana;
+}
+
+/*Ajusto logo*/
+#logo{
+	position: absolute;
+	height: 20vh;
+	left: 9vw;
+	top: 5vh;
+}
+
+/*Links de navegacion*/
+nav{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	position: absolute;
+	top: 28vh;
+	align-items: center;
+}
+
+.link {
+	font: 5vh arial;
+	display: inline;
+	color: black;
+	border: solid black;
+	box-shadow: 2px 2px black;
+	background: #1aff1a;
+	text-decoration: none;
+}
+
+.link a{
+	text-decoration: none;
+	color: black;
+}
+
+.hipervinculo{
+	background-color: white;
+}
+
+.hipervinculo:hover{
+	background-color: yellow;
+}
+
+
+/*Informacion*/
+#databox{
+	padding-left: 2.5vw; 
+	margin: 5vh;
+	font: 15px verdana;
+	color: white;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	background: rgb(0,0,0,0.2);
+}
+
+/*Modifico imagenes del diseño*/
+#imagenesdis3{
+		display: flex;
+		align-items: center;
+}
+
+#imgdis3{
+	border: 3px solid black;
+	height: 40vh;
+}
+
+/*Ajusto rules*/
+dt{
+	font-weight: bold;
+	margin-top: 3vh;
+}
+
+.negrita{
+	font-weight: bold;
+}
+
+li{
+	margin-bottom: 3vh;
+}
+
+.listaABCinterna{
+	list-style-type: lower-alpha;
+}
+
+.listaABCinterna>li{
+	margin: 0;
+}
+
+.lista123>li{
+	margin:0;
+}
+
+ul>li{
+	margin: 0;
+}
+
+
+/*Ajusto game info*/
+table{
+	border-collapse: collapse;
+	margin-bottom: 50px;
+}
+
+table:nth-child(3) td{
+	text-align: left;
+	padding-right: 0px;
+}
+
+#tables{
+	display: flex;
+	flex-direction: column;	
+}
+
+#locations{
+	text-align: left;
+	padding-left: 68px;
+}
+
+#estacion{
+	font-size: 20px;
+	text-align: left;
+	font-style: italic;
+}
+
+td{
+	padding: 3px 68px;
+	text-align: center;
+}
+
+.columna>td{
+	padding: 14px 40px;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+	
+}
+
+#aclaracion
+{
+	font-size: 15px;
+	padding-left: 0;
+	border: none;
+	text-align: left;
+	text-decoration: underline;
+	font-style: italic;
+}
+
+main>p{
+	margin-bottom: 15px;
+}
+
+footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+
+/*Ajusto Formulario*/
+#dataform{
+	display: flex;
+	justify-content: center;
+}
+
+#formulario{
+	margin-top: 30px;
+	width: 100vw;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+fieldset{
+	font: 15px verdana;
+	color: white;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	width: 80vw;
+	background: rgb(0,0,0, 0.5);
+	margin-bottom: 40px;
+}
+
+fieldset>div{
+	margin-bottom: 20px;
+}
+
+input{
+	border: 1px solid black;
+	border-radius: 3px;
+	padding: 2px 6px;
+	background-color: #dddddd;
+}
+
+input:focus{
+	background: white;
+}
+
+.formrowdouble{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.formrowdouble>input{
+	width: 36%;
+}
+
+.formrowfull{
+	display: flex;
+	justify-content: space-between;
+}
+
+.formrowfull>input{
+	width: 87%;
+}
+
+#zipinput{
+	width: 20%;
+}
+
+#cityinput{
+	width:65%;
+}
+
+#birthinput{
+	width: 12%;
+	margin: 0 20px 0px 10px;
+}
+
+#birthgender{
+	justify-content: flex-start;
+}
+
+#grade input{
+	margin-left: 20px;
+}
+
+#formtable td{
+	padding: 0;
+}
+
+.formCheck{
+	display: flex;
+	justify-content: space-between;
+}
+
+.divCheck{
+	font-size: 12px;
+	width: 50%;
+}
+
+.check{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.check>:first-child{
+	margin-right: 100px;
+}
+
+
+#divcheck2{
+	width: 50%;
+	font-size: 
+}
+
+#permision{
+	text-decoration: underline;
+}
+
+.smallFont{
+	font-size: 12px;
+}
+
+#signature{
+	width: 60%;
+}
+
+#signature_date{
+	width: 12%;
+}
+
+.title_clothes{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#agreement>p{
+	margin-bottom: 10px;
+}
+
+#submit_container{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+button{
+	font: 30px verdana;
+	cursor: pointer;
+	color: black;
+	width: 130px;
+	background: white;
+	border: 2px solid black;
+}
+
+
+/*Mapas*/
+iframe{
+	width: 889px;
+	height: 300px;
+}
+
+#maps_container{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 50px;
+}
+
+#maps_container>p{
+	margin-bottom: 15px;
+}
+
+#maps_container>a{
+	margin: 10px 0;
+	color: blue;
+
+}
+.map_class{
+	display: none;
+	border: 3px white;
+}
+
+.map_class:target{
+	display: block;
+
+}
+
+.school_name{
+	text-decoration: underline;
+}
+

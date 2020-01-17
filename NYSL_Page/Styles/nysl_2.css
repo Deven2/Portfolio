@@ -1,0 +1,89 @@
+/*Saco margenes de toda la pagina*/
+*{
+	margin:0;
+}
+
+/*Ajusto el header*/
+header{
+	float: top;
+	width: 100%;
+	margin: 1vh 0;
+}
+
+/*Ajusto el titulo*/
+#titulo{
+	font: 4vw verdana;	
+}
+
+/*Ajusto la imagen*/
+#imagen{
+	float:top;
+	height: 40vh;
+	width: 100%;
+	display: block;
+	object-fit: cover;
+	object-position: 40% 0;
+
+}
+
+/*Ajusto el logo*/
+#logo{
+	position: absolute;
+	height: 30vh;
+	top:65vh;
+	left: 3vw;
+}
+
+/*Ajusto el subtitulo*/
+#subtitulo{
+	text-align: center;
+	border: 0.5vh solid black;
+	color: black;
+	font-size: 5vh;
+}
+
+/*Links de navegacion*/
+nav{
+	display: inline;
+	position: absolute;
+	top:10vh;
+	right: 6vw;
+}
+
+
+.link {
+	display: inline;
+	margin:2vw;
+	color: white;
+	padding: 3px 10px;
+	border: solid black;
+	box-shadow: 2px 2px black;
+	background: #33ff77;
+	text-decoration: none;
+
+
+}
+.link a{
+	text-decoration: none;
+	color: white;
+}
+
+.hipervinculo{
+	background: #4d4dff;
+}
+
+
+/*Informacion*/
+#databox{
+	float: right;
+	width: 80vw;
+	margin: 2vh 0;
+}
+
+.data{
+	margin: 5vh;
+}
+
+#imagenesdis3{
+	display: none;
+}
